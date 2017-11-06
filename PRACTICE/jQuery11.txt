@@ -1,0 +1,100 @@
+ jQuery
+
+Q. Which of the following will attach the
+event handler for the click event of <div> tag?
+
+1). $(document).ready(function() {
+            $('div').on('click', function( event ){
+               alert('Hi there!');
+            });
+         });
+
+Q. Consider the following  code snippet  for jQuery selector:
+
+$("div#intro .head"). 
+What does it select? 
+
+1). All elements with class="head" inside the first div element 
+with id="intro" 
+2). The first element with id="head" inside any div element with class="intro" 
+3). All div elements with id="intro" and all descendants of div
+ with class="head" 
+4). First element with id=“intro” or class=“head” 
+Solution :
+option [3] is correct
+
+Q. Which of the following jQuery
+ method set the value of an element?
+
+1). setContent( val )
+2). val( val )
+3). setValue( val )
+4).  None of the above.
+Solution :
+option [2] is correct
+
+Q. Which jquery .js version file should be deployed to 
+the production? 
+
+1). jquery-1.x.x.js 
+2).   jquery-1.x.x.min.js 
+3).  validation.js 
+4). required.js 
+Solution :
+option [2] is correct
+
+Q. Which of the following  selectors select the
+only textboxes?
+
+1). $('text:') 
+2). $('#text') 
+3). $('.text') 
+4). $(':text') 
+Solution :
+option [4] is correct
+
+Q. Which of the following jQuery methods is used to change the value of a form element ?
+
+1). value('newvalue')
+2). text('newvalue')
+3). val('newvalue')
+4). txt('newvalue'
+Solution :
+option [3] is correct
+
+Q. Which of the following jQuery selector 
+select elements whose css class is cg-class?
+
+1).  $('cg-class')
+2).  $('#cg-class')
+3).  $('.cg-class')
+4). None of the above.
+Solution :
+option [3] is correct
+
+Q. Consider the following tag of html file.
+
+<p cg-custom="Capgemini">P5</p> 
+<input type="text"/>
+<input type="text" disabled/>
+<input type="radio" checked/>
+
+Which of the following jQuery selector 
+select the tag with  cg-custom attribute ?
+
+1). $('(cg-custom)')
+2). $('[cg-custom]')
+3). $([cg-custom])
+4). $('{cg-custom}')
+Solution :
+option [2] is correct
+
+Q. What is the correct jQuery code to set the 
+background color of all p elements to red? 
+
+1). $("p").html("background-color","red"); 
+2).  $("p").style("background-color","red"); 
+3).   $("p").layout("background-color","red"); 
+4).  $("p").css("background-color","red"); 
+Solution :
+option [4] is correct
